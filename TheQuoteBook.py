@@ -196,7 +196,7 @@ def TheQuoteBook(quote = random.randint(1, 190)):
         189: "One act of kindness will inspire another",
         190: "A winner is just a loser who tried one more time"
     }
-    return f"Quote #{quote}: {TQB[quote]}"
+    return f'Quote #{quote}: "{TQB[quote]}"'
 
 
 if __name__ == "__main__":
